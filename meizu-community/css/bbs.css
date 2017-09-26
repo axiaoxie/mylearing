@@ -1,0 +1,465 @@
+#bbs{
+	width: 1024px ;
+	margin: 0 auto;
+}
+/*左边内容*/
+#bbs-left{
+	float: left;
+	height: auto;
+	width: 658px;
+	padding: 0 20px;
+	border: 1px solid #e6e6e6;
+    box-shadow: 0 0 4px #ECECEC;
+     background: #fff;
+}
+/*版心*/
+#bbs-left .left-container{
+  	margin: 0 auto;
+    height: auto;
+    line-height: 40px;
+    color:#666;
+}
+/*左边开始（互动社区）*/
+#bbs-left .left-begin{
+	padding: 20px 0;
+	font-size: 14px;
+	color:#999;
+}
+#bbs-left .left-begin a{
+	height: 29px;
+	color:#999;
+}
+/*文章标题部分内容*/
+#bbs-left .left-title{
+	position: relative;
+	height: 70px;
+}
+#bbs-left .left-title img{
+	float: left;
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+#bbs-left .left-title>a{
+	display: block;
+    line-height: 38px;
+    color: #222222;
+    float: left;
+    font-size: 24px;
+    padding-left: 20px;
+}
+#bbs-left .left-user{
+	position: absolute;
+	width: 190px;
+	height: 19px;
+	top:50px;
+	left:90px;
+}
+#bbs-left .left-user a:nth-child(1){
+	display: inline-block;
+    float: left;
+    margin-right: 6px;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: bold;
+    color:#32A5E7;
+}
+#bbs-left .left-user a:nth-child(2){
+	font-size: 14px;
+	color: red;
+}
+#bbs-left .left-user .share-part{
+	display: inline-block;
+	width: 74px;
+	height: 19px;
+	font-size: 14px;
+	color:#999;
+	cursor: pointer;
+	padding-left: 20px;
+	position: relative;
+}
+#bbs-left .left-user .share-part img{
+	float: right;
+    width: 18px;
+    height: 18px;
+    vertical-align: text-bottom;
+    position: absolute;
+    top: 10px;
+    left: 72px;
+}
+#bbs-left .left-user .share-icon{
+	position: absolute;
+	width: 180px;
+	top:30px;
+	left:100px;
+	display: none;
+}
+#bbs-left .left-user .share-part .share-icon li{
+	float: left;
+}
+.share-icon li i{
+	display: inline-block;
+	width: 16px;
+    height: 16px;
+    padding: 5px;
+    border-radius: 50%;
+    background: url(../comimg/sprite.png) no-repeat ;
+}
+.share-icon li:nth-child(1) a i{background-position: -6px -50px;}
+.share-icon li:nth-child(2) a i{background-position: -86px -50px;}
+.share-icon li:nth-child(3) a i{background-position: -126px -50px;}
+.share-icon li:nth-child(4) a i{background-position: -166px -50px;}
+#bbs-left .left-title .left-info{
+	display: inline-block;
+	float: right;
+	width: 235px;
+	height: 20px;
+	margin-top: 50px;
+}
+#bbs-left .left-title .left-info span{
+	display: inline-block;
+    margin-top: 2px;
+    margin-right: 5px;
+    height: 14px;
+    font-size: 14px;
+    color:#666;
+}
+#bbs-left .left-title .left-info .spanpic{
+	width: 18px;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 0;
+}
+#bbs-left .left-title .left-info span:nth-child(2){
+	background: url(../comimg/main_icon.png) no-repeat -120px -630px;
+}
+#bbs-left .left-title .left-info span:nth-child(4){
+	background: url(../comimg/main_icon.png) no-repeat -150px -630px;
+}
+/*图片 文章内容*/
+.left-container>img{
+	display: block;
+	margin-top: 40px;
+	width: 658px;
+	height: 276px;
+}
+/*回帖栏部分*/
+#reply{
+	width: 658px;
+	height: 260px;
+	background: white;
+	margin-top: 20px;
+	padding: 0 20px;
+	overflow: hidden;
+}
+#reply .reply-head{
+	height: 55px;
+	margin: 20px 0 0 10px;
+}
+#reply .reply-head .r-left{
+	float: left;
+    width: 125px;
+    height: 30px;
+    background:url(../comimg/replytalk.png) 5px -1000px;
+}
+#reply .reply-head .r-right{
+	float: right;
+	height: 30px;
+	padding: 0 10px;
+	font-size: 18px;
+	color:#777;
+}
+#reply .reply-head .r-right em{
+	color:#32A5E7;
+}
+#reply .reply-portrait{
+	float: left;
+	margin-left: 10px;
+	width: 100px;
+	height: 100px;
+}
+#reply .reply-portrait img{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+#reply #reply-text{
+	float: left;
+	width: 500px;
+	border: 1px solid #ccc;
+    padding: 0 5px;
+    background: #fff;
+    position: relative;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+#reply #reply-text .reply-box{
+	display: inline-block;
+    width: 100%;
+    padding: 8px 0;
+    height: 90px;
+    margin: 0;
+    border: 0;
+    outline: none;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 26px;
+}
+#reply button{
+	border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 36px;
+    line-height: 36px;
+    width: 96px;
+    float: right;
+    margin-top: 30px;
+    background: #32A5E7;
+}
+/*回帖盖楼内容*/
+#bbs .floor{
+	width: 658px;
+    height: auto;
+    background: white;
+    margin-top: 20px;
+    padding: 0 20px;
+    overflow: hidden;
+}
+#bbs .floor .floor-list{
+	width: 658px;
+	height: 140px;
+	line-height: 28px;
+	font-size: 16px;
+	color:#333;
+	background: white;
+	padding-top: 18px;
+}
+#bbs .floor .floor-list .floor-img{
+	width: 60px;
+	display: inline-block;
+	float: left;
+}
+#bbs .floor .floor-list .floor-img img{
+	display: inline-block;
+    box-shadow: inset 0px 0px 1px #DDDDDD;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+}
+#bbs .floor .floor-list .floor-author{
+	float: left;
+	width: 593px;
+	font-size: 14px;
+    color: #999999;
+    overflow: hidden;
+}
+#bbs .floor .floor-list .floor-author a{
+	margin-right: 6px;
+	font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #32A5E7;
+    font-weight: bold;
+}
+#bbs .floor .floor-list .floor-author span{
+	padding-left: 5px;
+}
+#bbs .floor .floor-list .floor-author p{
+	float: right;
+}
+#bbs .floor .floor-list .floor-author p em{
+	padding-right: 10px;
+	color: #333;
+}
+#bbs .floor .floor-list .floor-bottom{
+	width: 658px;
+	height: 30px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+#bbs .floor .floor-list .floor-bottom a{
+	float: right;
+	font-size: 14px;
+	color:#666;
+	width: 28px;
+	text-align: center;
+	margin-right: 22px;
+}
+/*右边部分内容*/
+#bbs-right{
+	width: 276px;
+	overflow: hidden;
+    box-shadow: 0px 0px 4px #ECECEC;
+    border: 1px solid #E6E6E6;
+    background-color: #FFFFFF;
+    float: right;
+    padding: 23px 20px 15px;
+}
+#bbs-right .right-header{
+	border-bottom: 1px solid #E6E6E6;
+    height: 58px;
+    line-height: 58px;
+    color: #222222;
+	font-size: 18px;
+	margin-top: -20px;    
+}
+#bbs-right .right-header a{
+	display: inline-block;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 28px;
+    margin-top: 15px;
+   	color:#32A5E7;
+}
+#bbs-right .right-header p{
+	display: inline-block;
+	color: #333333;
+    line-height: 28px;
+}
+#bbs-right .right-theme{
+	line-height: 28px;
+	padding: 10px 0 0;
+}
+#bbs-right .right-theme a{
+	display: block;
+    width: 276px;
+    line-height: 44px;
+    height: 44px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#222;
+    font-size: 14px;
+}
+#bbs-right .right-theme a:hover{
+	color:#00C4F5;
+}
+#bbs-right .right-tuijian{
+	border-bottom: 1px solid #E6E6E6;
+    height: 58px;
+    line-height: 58px;
+    margin-top: 20px;
+}
+#bbs-right .right-tuijian h4{
+	float: left;
+    color: #32a5e7;
+    font-size: 18px;
+    font-weight: normal;
+}
+#bbs-right .pic{
+	display: block;
+	width: 124px;
+	height: 166px;
+	float: left;
+	margin-top: 20px;
+}
+#bbs-right .pic a{
+	font-size: 14px;
+	line-height: 28px;
+	color:#222;
+}
+#bbs-right .pic a:hover{
+	color:#666;
+}
+#bbs-right .picright{
+	margin-left: 25px;
+}
+#bbs-right .right-wrap{
+	margin-top: 20px;
+	clear: both;
+}
+#bbs-right .right-wrap a{
+	display: inline-block;
+    width: 276px;
+    line-height: 44px;
+    height: 44px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#222;
+    font-size: 14px;
+}
+#bbs-right .right-wrap a:hover{
+	color:#666;
+}
+/*左侧登录icon集合*/
+#login-icon{
+	position: fixed;
+	left:45px;
+	top:25%;
+	width: 180px;
+	height: 265px;
+}
+#login-icon ul li{
+	padding: 12px 0;
+    overflow: hidden;
+    width: 120px;
+    border-top: 1px solid #e5e5e5;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    color: #888;
+}
+#login-icon ul li:last-child{
+	border-bottom: 1px solid #e5e5e5;
+}
+#login-icon ul li a{
+	display: block;
+	position: relative;
+	color: #888;
+}
+#login-icon ul li a::before{
+	content: '';
+	width: 40px;
+	height: 28px;
+	border-radius: 4px;
+	position: absolute;
+	background:white;
+	transform: scale(0,0);
+	opacity: 0.4;
+	left:0;
+	z-index: 2;
+	transition: all 0.4s ease-in-out;
+}
+#login-icon ul li a:hover{
+	color: #333;
+}
+#login-icon ul li a:hover::before{
+	transform: scale(1,1);
+}
+#login-icon ul li:nth-child(1) a::before{transform-origin: center center;}
+#login-icon ul li:nth-child(2) a::before{transform-origin: left top;}
+#login-icon ul li:nth-child(3) a::before{transform-origin: left bottom;}
+#login-icon ul li:nth-child(4) a::before{transform-origin: right top;}
+#login-icon ul li:nth-child(5) a::before{transform-origin: right bottom;}
+
+#login-icon ul li a i{
+	display: inline-block;
+	float: left;
+    position: relative;
+    overflow: hidden;
+    width: 40px;
+    height: 28px;
+    margin-right: 13px;
+    background: url(../comimg/sprite.png) no-repeat ;
+    border-radius: 4px;
+}
+#login-icon ul li:nth-child(1) a i{background-position: 0px -50px;}
+#login-icon ul li:nth-child(2) a i{background-position: -80px -50px;}
+#login-icon ul li:nth-child(3) a i{background-position: -120px -50px;}
+#login-icon ul li:nth-child(4) a i{background-position: -160px -50px;}
+#login-icon ul li:nth-child(5) a i{background-position: -280px -50px;}
+
+/*清除浮动*/
+.clear{
+	clear: both;
+}

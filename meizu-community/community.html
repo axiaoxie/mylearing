@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>魅族社区</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/community.css"/>
+		<script src="js/jquery-1.8.3.js"></script>
+		<script src="js/community.js"></script>
+	</head>
+	<body>
+		<!--头部内容-->
+		<div id="top">
+			<div id="top-container">
+				<div id="top-img">
+					<img src="comimg/toplogo.png"/>
+				</div>
+				<div id="top-nav">
+					<ul id="top-nav-ul">
+						<li><a href="index.html">魅族商城</a></li>
+						<li><a href="chanpinlist.html">魅族手机</a></li>
+						<li><a href="#">魅蓝手机</a></li>
+						<li><a href="#">魅族声学</a></li>
+						<li><a href="#">智能·配件</a></li>
+						<li><a href="#service.html">服务</a></li>
+						<li><a href="store.html">专卖店</a></li>
+						<li><a href="#">Flyme</a></li>
+					</ul>
+				</div>
+				<div id="nav-hide" class="nav-hide">
+					<ul>
+						<li><a href=""><i></i>魅蓝EP52</a></li>
+						<li><a href=""><i></i>魅族Flow</a></li>
+						<li><a href=""><i></i>魅族蓝牙小音箱</a></li>
+						<li><a href=""><i></i>魅族EP2X</a></li>
+						<li><a href=""><i></i>魅蓝EP51</a></li>
+						<li><a href=""><i></i>魅族HD50</a></li>
+					</ul>
+				</div>
+				<div id="nav-hide2" class="nav-hide">
+					<ul>
+						<li><a href=""><i></i>魅族 PRO 7</a></li>
+						<li><a href=""><i></i>魅族 PRO 6 plus</a></li>
+						<li><a href=""><i></i>魅族 PRO 6s</a></li>
+						<li><a href=""><i></i>魅族 MX 6</a></li>
+						<li><a href=""><i></i>魅族 PRO 6</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--首页横条-->
+		<div id="header">
+			<div id="header-left">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">综合讨论</a></li>
+					<li><a href="#">魅族手机</a></li>
+					<li><a href="#">魅蓝手机</a></li>
+					<li><a href="#">摄影天地</a></li>
+					<li><a href="#">魅友家</a></li>
+					<li><a href="#" id="all-block">全部版块</a></li>
+					<li><a href="#">社区APP</a></li>
+				</ul>
+				<!--隐藏部分-->
+				<div id="blockNone">
+					<i class="block-arrow"></i>
+					<div class="block-group">
+						<div class="color-block blue-block"></div>
+						<dl>
+							<dt>魅族产品</dt>
+							<dd><a href="#">综合讨论</a></dd>
+							<dd><a href="#">魅族手机</a></dd>
+							<dd><a href="#">魅蓝手机</a></dd>
+						</dl>
+					</div>
+					<div class="block-group">
+						<div class="color-block green-block"></div>
+						<dl>
+							<dt>科技海岸</dt>
+							<dd><a href="#">魅玩帮</a></dd>
+							<dd><a href="#">智能设备</a></dd>
+							<dd><a href="#">资源分享</a></dd>
+						</dl>
+					</div>
+					<div class="block-group">
+						<div class="color-block yellow-block"></div>
+						<dl>
+							<dt>社区生活</dt>
+							<dd><a href="#">谈天说地</a></dd>
+							<dd><a href="#">二手交易</a></dd>
+							<dd><a href="#">摄影天地</a></dd>
+							<dd><a href="#">魅友家</a></dd>
+							<dd><a href="#">优惠活动</a></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div id="header-right">
+				<input type="text" placeholder="搜索话题和用户" id="header-search"/>
+				<button id="header-btn"></button>
+			</div>
+		</div>
+		<!--内容版块-->
+		<div id="content">
+			<div id="content-left">
+				<div class="left-1">
+					<div class="banner">
+						<ul class="imgList">
+							<li><a href=""><img src="comimg/1.jpg"/></a></li>
+							<li><a href=""><img src="comimg/2.jpg"/></a></li>
+							<li><a href=""><img src="comimg/3.jpg"/></a></li>
+						</ul>
+						<div id="leftbtn" class="btncommon">
+							<img src="comimg/arrow-left.png" alt="" />
+						</div>
+						<div id="rightbtn" class="btncommon">
+							<img src="comimg/arrow-right.png" alt="" />
+						</div>
+						<div id="imgindex" class="imgindex">
+							<p>魅族科技将举行魅蓝 6 新品发布会</p>
+							<ul>
+								<li class="active"><img src="comimg/1.jpg" alt="" /></li>
+								<li><img src="comimg/2.jpg" alt="" /></li>
+								<li><img src="comimg/3.jpg" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="left-2">
+					<!--社区热帖头部-->
+					<div class="left2-header left2-common">
+						<h4>社区热帖</h4>
+						<ul>
+							<li>
+								今日发帖：
+								<p>7963</p>
+							</li>
+							<li>
+								历史最高：
+								<p>515519</p>
+							</li>
+							<li>
+								会员：
+								<p class="bordernone">34078474</p>
+							</li>
+						</ul>
+					</div>
+					<!--社区热帖 table-->
+					<div class="left2-table left2-common">
+						<table>
+							<tr>
+								<td>
+									<div class="td-div">
+										<a href="#" class="tddiv-left"><img src="userimg/1.jpg"/></a>
+										<div class="tddiv-right">
+											<a href="" class="right-title">安兔兔八月份好评榜 PRO 6 Plus 第二名!</a>
+											<div class="meta-info">
+												<span class="username">阿卫</span>
+												<p class="right-info">
+													<span><i id="info-view"></i>8126</span>
+													<span><i id="info-comment"></i>781</span>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="tddiv-left-hide">
+										<a href=""><img src="userimg/1.jpg" alt="" /></a>
+										<a href="">阿卫</a>
+										<div id="spans">
+											<span>帖子</span>
+											<span class="in">84</span>
+											<span>收听</span>
+											<span class="in">0</span>
+											<span>听众</span>
+											<span class="in">5</span>
+										</div>
+										<button>收听他</button>
+									</div>
+								</td>
+								<td>
+									<div class="td-div">
+										<a href="" class="tddiv-left"><img src="userimg/2.jpg"/></a>
+										<div class="tddiv-right">
+											<a href="" class="right-title">忍不住就买了 啊！啊！</a>
+											<div class="meta-info">
+												<span class="username">落日、火焰</span>
+												<p class="right-info">
+													<span><i id="info-view"></i>8126</span>
+													<span><i id="info-comment"></i>781</span>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="tddiv-left-hide">
+										<a href=""><img src="userimg/2.jpg" alt="" /></a>
+										<a href="">落日、火焰</a>
+										<div id="spans">
+											<span>帖子</span>
+											<span class="in">14845</span>
+											<span>收听</span>
+											<span class="in">6</span>
+											<span>听众</span>
+											<span class="in">2210</span>
+										</div>
+										<button>收听他</button>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="td-div">
+										<a href="" class="tddiv-left"><img src="userimg/3.jpg"/></a>
+										<div class="tddiv-right">
+											<a href="" class="right-title">畅想未来 ，‘画屏’还可以做些什么</a>
+											<div class="meta-info">
+												<span class="username">Black_Blue</span>
+												<p class="right-info">
+													<span><i id="info-view"></i>1212</span>
+													<span><i id="info-comment"></i>83</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="td-div">
+										<a href="" class="tddiv-left"><img src="userimg/4.jpg"/></a>
+										<div class="tddiv-right">
+											<a href="" class="right-title">9月15日（周五）魅有早新闻</a>
+											<div class="meta-info">
+												<span class="username">虎啸丛林</span>
+												<p class="right-info">
+													<span><i id="info-view"></i>804</span>
+													<span><i id="info-comment"></i>73</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="td-div">
+										<a href="" class="tddiv-left"><img src="userimg/5.jpg"/></a>
+										<div class="tddiv-right">
+											<a href="" class="right-title">刷脸取款机面试，你就是移动银行卡！</a>
+											<div class="meta-info">
+												<span class="username">魅友聊乎</span>
+												<p class="right-info">
+													<span><i id="info-view"></i>4660</span>
+													<span><i id="info-comment"></i>1118</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="td-div">
+										<a href="" class="tddiv-left"><img src="userimg/6.jpg"/></a>
+										<div class="tddiv-right">
+											<a href="" class="right-title">‘微谈’关于微信数据的一些事</a>
+											<div class="meta-info">
+												<span class="username">鸾凤栖花满江楼</span>
+												<p class="right-info">
+													<span><i id="info-view"></i>3126</span>
+													<span><i id="info-comment"></i>144</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="td-div">
+										<a href="" class="tddiv-left"><img src="userimg/7.jpg"/></a>
+										<div class="tddiv-right">
+											<a href="" class="right-title">大长腿校草字体上线</a>
+											<div class="meta-info">
+												<span class="username">Flyme主题美化</span>
+												<p class="right-info">
+													<span><i id="info-view"></i>611</span>
+													<span><i id="info-comment"></i>26</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="td-div">
+										<a href="" class="tddiv-left"><img src="userimg/8.jpg"/></a>
+										<div class="tddiv-right">
+											<a href="" class="right-title">"福利"魅蓝6邀请函正在掉落</a>
+											<div class="meta-info">
+												<span class="username">魅友聊乎</span>
+												<p class="right-info">
+													<span><i id="info-view"></i>10445</span>
+													<span><i id="info-comment"></i>919</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="td-div">
+										<a href="" class="tddiv-left"><img src="userimg/9.jpg"/></a>
+										<div class="tddiv-right">
+											<a href="" class="right-title">一线妞请你看发布会！</a>
+											<div class="meta-info">
+												<span class="username">魅蓝一线</span>
+												<p class="right-info">
+													<span><i id="info-view"></i>4277</span>
+													<span><i id="info-comment"></i>587</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="td-div">
+										<a href="" class="tddiv-left"><img src="userimg/10.jpg"/></a>
+										<div class="tddiv-right">
+											<a href="" class="right-title">“活动”全面屏设计与思维</a>
+											<div class="meta-info">
+												<span class="username">Risasda</span>
+												<p class="right-info">
+													<span><i id="info-view"></i>3319</span>
+													<span><i id="info-comment"></i>339</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="td-div">
+										<a href="#" class="tddiv-left"><img src="userimg/11.jpg"/></a>
+										<div class="tddiv-right">
+											<a href="" class="right-title">魅族 我对你的爱从未改变</a>
+											<div class="meta-info">
+												<span class="username">隐之遗忘</span>
+												<p class="right-info">
+													<span><i id="info-view"></i>3276</span>
+													<span><i id="info-comment"></i>278</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="td-div">
+										<a href="#" class="tddiv-left"><img src="userimg/12.jpg"/></a>
+										<div class="tddiv-right">
+											<a href="" class="right-title">版块福利之邀请您参加9月20日魅蓝新品发布会</a>
+											<div class="meta-info">
+												<span class="username">陈州</span>
+												<p class="right-info">
+													<span><i id="info-view"></i>2676</span>
+													<span><i id="info-comment"></i>198</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="left-3">
+					<dl class="dl-list">
+						<dt class="dt-img">
+							<a href="#"><img src="comimg/floor1.jpg" alt="" /></a>
+						</dt>
+						<dd class="dd-content">
+							<p>综合讨论</p>
+							<p>Flyme图标演变</p>
+							<div class="dd-meta">
+								<span class="meta-common font">
+									<i class="meta-view i-common"></i>11885
+								</span>
+								<span class="meta-common font">
+									<i class="meta-comment i-common"></i>1018
+								</span>
+								<span class="meta-common font">/黄油先生</span>
+								<span class="meta-common font">/9月5日</span>
+								<a href="">阅读原文</a>
+							</div>
+							<p>
+								设计从来都不会一蹴而就，从初代到现在的 Flyme 6，图标的不断演变见证着设计师的雕琢。
+							</p>
+							<div class="dd-weibo">
+								<a href="#" class="weibo-a">
+									<i class="weibo-i"></i>
+								</a>
+							</div>
+						</dd>
+					</dl>
+					<dl class="dl-list">
+						<dt class="dt-img">
+							<a href="bbs.html"><img src="comimg/hot1.jpg" alt="" /></a>
+						</dt>
+						<dd class="dd-content">
+							<p>综合讨论</p>
+							<p>mCycle 魅友狂欢趴</p>
+							<div class="dd-meta">
+								<span class="meta-common font">
+									<i class="meta-view i-common"></i>11795
+								</span>
+								<span class="meta-common font">
+									<i class="meta-comment i-common"></i>2762
+								</span>
+								<span class="meta-common font">/卓岳</span>
+								<span class="meta-common font">/9月18日</span>
+								<a href="bbs.html">阅读原文</a>
+							</div>
+							<p>
+								魅友狂欢趴，mCycle 回收立涨 10% 、壕礼送不停！
+							</p>
+							<div class="dd-weibo">
+								<a href="#" class="weibo-a">
+									<i class="weibo-i"></i>
+								</a>
+							</div>
+						</dd>
+					</dl>
+					<dl class="dl-list">
+						<dt class="dt-img">
+							<a href="#"><img src="comimg/hot2.jpg" alt="" /></a>
+						</dt>
+						<dd class="dd-content">
+							<p>综合讨论</p>
+							<p>为魅蓝航海王神秘新品应援</p>
+							<div class="dd-meta">
+								<span class="meta-common font">
+									<i class="meta-view i-common"></i>2264
+								</span>
+								<span class="meta-common font">
+									<i class="meta-comment i-common"></i>392
+								</span>
+								<span class="meta-common font">/卓岳</span>
+								<span class="meta-common font">/4小时前</span>
+								<a href="">阅读原文</a>
+							</div>
+							<p>
+								为信仰应援！赢魅蓝航海王限定手机
+							</p>
+							<div class="dd-weibo">
+								<a href="#" class="weibo-a">
+									<i class="weibo-i"></i>
+								</a>
+							</div>
+						</dd>
+					</dl>
+					<dl class="dl-list">
+						<dt class="dt-img">
+							<a href="#"><img src="comimg/hot3.jpg" alt="" /></a>
+						</dt>
+						<dd class="dd-content">
+							<p>综合讨论</p>
+							<p>回馈魅友，中秋送温暖</p>
+							<div class="dd-meta">
+								<span class="meta-common font">
+									<i class="meta-view i-common"></i>14619
+								</span>
+								<span class="meta-common font">
+									<i class="meta-comment i-common"></i>3770
+								</span>
+								<span class="meta-common font">/魅族care</span>
+								<span class="meta-common font">/昨天13：56</span>
+								<a href="">阅读原文</a>
+							</div>
+							<p>
+								都说魅族手机颜值高，工艺精湛，可为什么也要把魅族月饼礼盒做的如此精美？。
+							</p>
+							<div class="dd-weibo">
+								<a href="#" class="weibo-a">
+									<i class="weibo-i"></i>
+								</a>
+							</div>
+						</dd>
+					</dl>
+					<dl class="dl-list">
+						<dt class="dt-img">
+							<a href="#"><img src="comimg/hot4.jpg" alt="" /></a>
+						</dt>
+						<dd class="dd-content">
+							<p>综合讨论</p>
+							<p>「窗」魅族 PRO 7 摄影展优秀作品节选（二）</p>
+							<div class="dd-meta">
+								<span class="meta-common font">
+									<i class="meta-view i-common"></i>22705
+								</span>
+								<span class="meta-common font">
+									<i class="meta-comment i-common"></i>3402
+								</span>
+								<span class="meta-common font">/黄油先生</span>
+								<span class="meta-common font">/六天前</span>
+								<a href="">阅读原文</a>
+							</div>
+							<p>
+								让我们先一睹部分参赛者眼中的「窗」。
+							</p>
+							<div class="dd-weibo">
+								<a href="#" class="weibo-a">
+									<i class="weibo-i"></i>
+								</a>
+							</div>
+						</dd>
+					</dl>
+					<dl class="dl-list">
+						<dt class="dt-img">
+							<a href="#"><img src="comimg/hot5.jpg" alt="" /></a>
+						</dt>
+						<dd class="dd-content">
+							<p>综合讨论</p>
+							<p>「魅友招募」最佳「拍」档，魅族 PRO 7 行摄香港</p>
+							<div class="dd-meta">
+								<span class="meta-common font">
+									<i class="meta-view i-common"></i>25331
+								</span>
+								<span class="meta-common font">
+									<i class="meta-comment i-common"></i>1018
+								</span>
+								<span class="meta-common font">/索大</span>
+								<span class="meta-common font">/昨天10:00</span>
+								<a href="">阅读原文</a>
+							</div>
+							<p>
+								携手迈入香港拥挤而繁华的街道，浅听周围人声谈笑，用镜头记录这座鎏金岁月之城。
+							</p>
+							<div class="dd-weibo">
+								<a href="#" class="weibo-a">
+									<i class="weibo-i"></i>
+								</a>
+							</div>
+						</dd>
+					</dl>
+					<dl class="dl-list">
+						<dt class="dt-img">
+							<a href="#"><img src="comimg/hot6.jpg" alt="" /></a>
+						</dt>
+						<dd class="dd-content">
+							<p>综合讨论</p>
+							<p>魅族商城 APP 下单送百兆流量！</p>
+							<div class="dd-meta">
+								<span class="meta-common font">
+									<i class="meta-view i-common"></i>16256
+								</span>
+								<span class="meta-common font">
+									<i class="meta-comment i-common"></i>2131
+								</span>
+								<span class="meta-common font">/商城福利社</span>
+								<span class="meta-common font">/两天前</span>
+								<a href="">阅读原文</a>
+							</div>
+							<p>
+								小伙伴们！福利君又来啦！这次准备拯救大家的流量荒！
+							</p>
+							<div class="dd-weibo">
+								<a href="#" class="weibo-a">
+									<i class="weibo-i"></i>
+								</a>
+							</div>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!--内容右边部分-->
+			<div id="content-right">
+				<!--第一个div-->
+				<div id="first-wrap" class="wrap-common">
+					<div id="signin">
+						<div class="week_ban" id="week_ban"></div>
+						<div class="signin">签到</div>
+					</div>
+					<div class="signin-pic">
+						<a href="#"><img src="comimg/shop.png" alt="" /></a>
+						<a href="#"><img src="comimg/lottery.png" alt="" /></a>
+					</div>
+				</div>
+				<!--第二个div-->
+				<div id="second-wrap" class="wrap-common">
+					<img src="comimg/qr-right-side-1.png" alt="" />
+				</div>
+				<!--第三个div-->
+				<div id="third-wrap" class="wrap-common">
+					<p>热门版块</p>
+					<div id="table-wrap">
+						<table border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td><a href="#">综合讨论</a</td>
+								<td><a href="#">魅族手机</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">魅蓝手机</a></td>
+								<td><a href="#">资源分享</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">谈天说地</a></td>
+								<td><a href="#">摄影天地</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">智能设备</a></td>
+								<td><a href="#">魅玩帮</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">Flyme</a></td>
+								<td><a href="#">魅族游戏</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<!--第四个div-->
+				<div id="fourth-wrap" class="wrap-common">
+					<h4>最新活动</h4>
+					<div class="new-activity">
+						<div class="activity-left">
+							<img src="comimg/phone.jpg" alt="" />
+						</div>
+						<div class="activity-right">
+							<p>PRO 6 Plus 特惠</p>
+							<span>特惠30仅售2699,购机享12期免息</span>
+							<div class="button"><a href="">立即参加</a></div>
+						</div>
+					</div>
+					<div class="new-activity">
+						<div class="activity-left">
+							<img src="comimg/APPchong.jpg" alt="" />
+						</div>
+						<div class="activity-right">
+							<p>APP抓虫 等你来</p>
+							<span>魅族社区手机客户端意见反馈征集</span>
+							<div class="button"><a href="">立即参加</a></div>
+						</div>
+					</div>
+				</div>
+				<!--第五个div-->
+				<div id="fifth-wrap" class="wrap-common">
+					<h4>新人课堂</h4>
+					<img src="comimg/comindex.jpg" alt="" />
+					<div class="fifth-div">
+						<ul>
+							<li><a href="#">系统教程</a></li>
+							<li><a href="#">新人指引</a></li>
+							<li><a href="#" class="bordernone">社区版规</a></li>
+							<li><a href="#">反馈建议</a></li>
+							<li><a href="#">版务申述</a></li>
+							<li><a href="#" class="bordernone">服务支持</a></li>
+						</ul>
+					</div>
+				</div>
+				<!--第六个div-->
+				<div id="sixth-wrap" class="wrap-common">
+					<div class="tag_tags">
+						<div class="tg active" id="alpha">体验版系统</div>
+						<div class="tg" id="beta">正式版系统</div>
+					</div>
+					<div class="tag_main tag_active" id="alpha-c">
+						<h4>Flyme 6.7.8.22 beta</h4>
+						<p>发布日期：2017年8月22日</p>
+						<p>适用机型：PRO 6Plus、MX6等</p>
+					</div>
+					<div class="tag_main" id="beta-c">
+						<h4>Flyme 6.1.0.0 稳定版</h4>
+						<p>发布日期：2017年5月31日</p>
+						<p>适用机型：PRO 6Plus、PRO6S等</p>
+					</div>
+					<div class="tag_change">
+						<a href="">变更详情   &gt;</a>
+						<a href="">适用反馈   &gt;</a>
+					</div>
+					<div class="tag_btn">下载更新</div>
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<div id="foot">
+			<ul>
+				<li><a href="">关于魅族</a></li>
+				<li><a href="">法律声明</a></li>
+				<li><a href="">工作机会</a></li>
+				<li><a href="">联系我们</a></li>
+				<li class="lastchild">
+					<img src="comimg/gobal.jpg" alt="" />
+					<a href="">简体中文</a>
+				</li>
+			</ul>
+			<div id="lanchange">
+				<a href="###" id="firsta">国家或者地区</a>
+				<a href="javascript:chinese()" id="chinese">简体中文</a>
+				<a href="###" id="hkchinese">繁體中文</a>
+				<a href="###">English</a>
+				<a href="###">Indonesia</a>
+				<a href="###">Русский</a>
+				<a href="###">עברית</a>
+				<a href="###">India</a>
+			</div>
+			<div id="footdown">
+				<span>©2015 Meizu Telecom Equipment Co., Ltd. All rights reserved. </span>
+				<span>珠海市魅族通讯设备有限公司</span>
+				<span>地址：广东省珠海市唐家湾科技创新海岸魅族科技楼 </span>
+				<span>经营许可证编号：粤B2-20170010</span>
+				<span> 粤ICP备13003602号-1 </span>
+				<img src="comimg/record.png" alt="" />
+				<span>粤公网安备 44049102496009 号</span>
+			</div>
+			
+		</div>
+		<!--返回顶部按钮-->
+		<div id="return-top">
+			<a href="#"></a>
+		</div>
+	</body>
+</html>
