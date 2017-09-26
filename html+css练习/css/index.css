@@ -1,0 +1,148 @@
+.contact {
+	width: 890px;
+	height: 190px;
+	background:url(../images/index/contactbg.jpg);
+}
+.index{
+	width: 890px;
+	height: 1017px;
+}
+.index .ione{
+	width: 890px;
+	height: 211px;
+	margin-top: 10px;
+	background-color: #e8e0d6;
+}
+.index .ione a{
+	display: block;
+	width: 155px;
+	height: 211px;
+	float: left;
+	margin-left:38px;
+}
+.index .ione .a2{
+	margin-left: 80px;
+}
+.index .ione .a3{
+	margin-left: 60px;
+}
+.index .ione .a4{
+	margin-left: 55px;
+}
+.index .ione img{
+	margin-left:42px;
+	margin-top: 19px;
+	width: 71px;
+	height: 71px;
+}
+.index .ione a span{
+	display: block;
+	margin-top: 7px;
+	width: 155px;
+	height: 38px;
+	font-size: 18px;
+	color: #a37339;
+	text-align: center;
+}
+.index .ione a p{
+	width: 160px;
+	height: 76px;
+	font-size: 12px;
+	color:#a2835d;
+}
+
+.index .itwo{
+	width: 890px;
+	height: 220px;
+	background: #d3c1ab;
+}
+.index h5{
+	margin-left: 12px;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	color: #9e5b09;
+}
+.index .itwo p{
+	margin-left: 40px;
+	width: 800px;
+	height: 140px;
+	text-indent: 2em;
+	font-size: 12px;
+	color: #9d7a51;
+}
+.index .span{
+	display: block;
+	margin-left: 410px;
+	margin-top: 5px;
+	width: 70px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: bolder;
+	text-align: center;
+	color: white;
+	background: #e2a226;
+	float: left;
+}
+.index .ithree{
+	width: 890px;
+	height: 280px;
+	background: #e8e0d6;
+}
+.index .ithree a{
+	display: block;
+	width: 158px;
+	height: 188px;
+	margin-right: 10px;
+	float: left;
+}
+.index .ithree .a1{
+	margin-left:38px;
+}
+.index .ithree a p{
+	width: 158px;
+	margin-top: 18px;
+	height: 12px;
+	line-height: 12px;
+	font-size: 12px;
+	color: #727171;
+	text-align: center;
+}
+.contact h5{
+	margin-left: 12px;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	color: #9e5b09;
+}
+.contact a{
+	float: left;
+	display: block;
+	width: 160px;
+	height: 140px;
+	background: #dccdbc;
+	margin-left: 20px;
+}
+.contact a img{
+	margin-top: 10px;
+	margin-left:65px;
+}
+.contact a span{
+	margin-top: 15px;
+	display: block;
+	width: 160px;
+	font-size: 14px;
+	height: 30px;
+	text-align: center;
+	color: #a28564;
+} 
+.contact a p{
+	font-size: 12px;
+	color: #595754;
+	text-align: center;
+}

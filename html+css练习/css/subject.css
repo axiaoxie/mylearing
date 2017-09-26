@@ -1,0 +1,94 @@
+.subject{
+	width: 900px;
+	height: 994px;
+	background: #fff;
+}
+.container{
+	width: 850px;
+	margin:0 auto;
+}
+.subject .sone{
+	height: 287px;
+}
+.subject .sone h5{
+	width: 100%;
+	height: 72px;
+	font:18px '新宋体';
+	line-height: 72px;
+	text-align: center;
+}
+.subject .sone img{
+	float: left;
+}
+.subject .sone .soneright{
+	width: 540px;
+	height: 190px;
+	margin-left: 32px;
+	float: left;
+}
+.subject .sone .soneright p{
+	font-size: 16px;
+	height: 30px;
+	color:#cdbbad;
+}
+.subject .sone .soneright .littlepic img{
+	display: block;
+	margin-left:15px;
+}
+
+.subject .stwo{
+	height: 102px;
+}
+.subject .stwo img{
+	float: left;
+}
+.subject .stwo h5{
+	float: left;
+	font-size: 25px;
+	height: 102px;
+	width: 136px;
+	line-height: 102px;
+	letter-spacing: 2px;
+}
+#downmove{
+	margin-top: 8px;
+}
+.subject .stwo .p1{
+	letter-spacing: 3px;
+	width: 277px;
+	text-align: center;
+	float: left;
+	font-size: 25px;
+	height: 102px;
+	line-height: 102px;
+}
+.subject .sthree{
+	height: 305px;
+}
+.subject .picture a{
+	display: block;
+	width: 278px;
+	height: 305px;
+	float: left;
+}
+.subject .picture h5{
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #5c5a59;
+}
+.subject .picture p{
+	color: #5c5a59;
+	font-size: 10px;
+}
+.subject .picture span{
+	float: right;
+	font-size: 10px;
+	color:#f40a25;
+}
+.subject .picture .ml20{
+	margin-left: 5px;
+}
+.subject .sfour{
+	height: 290px;
+}

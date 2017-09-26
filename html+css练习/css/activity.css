@@ -1,0 +1,287 @@
+.activity{
+	margin-top: 30px;
+	width: 891px;
+	height: 1016px;
+	background: #fff;
+}
+.activity .container{
+	width: 853px;
+	margin:0 auto;
+	background: #efefef;
+}
+/*head s*/
+.activity .search{
+	width: 891px;
+	height: 60px;
+}
+.activity .search span,input{
+	display: block;
+	margin-top: 14px;
+	float: right;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	color:#dcb09a;
+	border: 1px solid #ada191;
+}
+#search1{
+	width: 66px;
+	margin-right: 10px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 16px;
+	background:#b7ccb9;
+	color:#4a514a;
+}
+#sheying{
+	height: 32px;
+	line-height: 32px;
+	width: 90px;
+	font-size: 14px;
+	background: #ded2c4;
+	color:#5c5a59;
+}
+/*head e*/
+
+/*onebox s*/
+.activity .onebox{
+	height: 244px;
+	background: red;
+	margin-top: 5px;
+	background: #e8e0d6;
+}
+.activity .onebox img{
+	margin-top: 12px;
+	float: left;
+	margin-left: 18px;
+}
+.activity .onebox .oneright{
+	width: 442px;
+	height: 244px;
+	margin-left:48px;
+	float: left;
+}
+.activity .onebox .oneright h4{
+	margin-top:32px;
+	font-size:14px;
+	font-family: "微软雅黑";
+	color: #ea0621;
+}
+#canjia{
+	margin-top: 16px;
+}
+.activity .onebox .oneright p{
+	margin-left:25px;
+	margin-top: 8px;
+	width: 365px;
+	height: 50px;
+	line-height: 14px;
+	font:10px '微软雅黑';
+	font-weight: bold;
+	color: #865843;
+}
+/*onebox e*/
+/*twobox s*/
+.activity .twobox{
+	height: 236px;
+	margin-top: 10px;
+}
+.activity .twobox h4{
+	margin-left:10px;
+	width: 853px;
+	height: 33px;
+	font-size: 14px;
+	font-family: '微软雅黑';
+	line-height: 33px;
+	color:#5c5a59;
+}
+.activity .twobox img{
+	float: left;
+	margin-top:10px;
+}
+.activity .twobox .tworight{
+	width: 442px;
+	height: 192px;
+	margin-left: 125px;
+	float: left;
+}
+.activity .twobox .righttop{
+	width: 442px;
+	height: 146px;
+	margin-top: 10px;
+}
+.activity .twobox h5{
+	font-size: 14px;
+	margin-left:10px;
+}
+.activity .twobox p{
+	margin-left: 10px;
+	margin-top: 30px;
+	font-size: 10px;
+}
+.activity .twobox .rightbottom{
+	width: 442px;
+	height: 46px;
+}
+/*twobox e*/
+/*threebox s*/
+.activity .threebox{
+	height: 200px;
+	border-top: 1px solid #d4d4d4;
+}
+.activity .threebox img{
+	float: left;
+	margin-top: 10px;
+}
+.activity .threebox .threeright{
+	width: 442px;
+	height: 201px;
+	margin-left: 125px;
+	float: left;
+}
+.activity .threebox .righttop{
+	margin-top: 8px;
+	width: 442px;
+	height: 146px;
+}
+.activity .threebox .rightbottom{
+	width: 442px;
+	height: 45px;
+}
+.activity .threebox h5{
+	font-size: 14px;
+	margin-left:10px;
+}
+.activity .threebox p{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 10px;
+}
+/*threebox e*/
+/*fourbox s*/
+.activity .fourbox{
+	height:197px;
+	border-top: 1px solid #d4d4d4; 
+}
+.activity .fourbox img{
+	float: left;
+	margin-top: 5px;
+}
+.activity .fourbox .fourright{
+	width: 442px;
+	height: 197px;
+	margin-left: 125px;
+	float: left;
+}
+.activity .fourbox .righttop{
+	margin-top: 8px;
+	width: 442px;
+	height: 146px;
+}
+.activity .fourbox .rightbottom{
+	width: 442px;
+	height: 42px;
+}
+.activity .fourbox h5{
+	font-size: 14px;
+	margin-left:10px;
+}
+.activity .fourbox p{
+	margin-left: 10px;
+	margin-top: 15px;
+	font-size: 10px;
+}
+/*fourbox e*/
+/*fivebox s*/
+.activity .fivebox{
+	height: 50px;
+	background:#efefef;
+}
+.activity .fivebox .fifth{
+	height: 25px;
+	float: left;
+}
+.activity .fivebox .left{
+	width: 234px;
+}
+.activity .fivebox .left li a{
+	display: block;
+	width: 20px;
+	font-size: 10px;
+	height: 15px;
+	line-height: 15px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 2px;
+	background: #cad4e6;
+	text-align: center;
+	color:#65607c;
+}
+.activity .fivebox .left .ml20 a{
+	display: block;
+	color: white;
+	background:#ff8707;
+	margin-left: 20px;
+}
+.activity .fivebox .left .width40 a{
+	width: 40px;
+}
+.activity .fivebox .middle{
+	width: 376px;
+}
+.activity .fivebox span{
+	font-size: 10px;
+	color: #666563;
+	float: left;
+	margin-top: 20px;
+}
+.activity .fivebox .right{
+	width: 243px;
+}
+.activity .fivebox .right input{
+	display: block;
+	width: 45px;
+	height: 23px;
+	float: left;
+	margin-top:15px;
+	line-height: 23px;
+	text-align: left;
+}
+.activity .fivebox .right button{
+	margin-top: 15px;
+	cursor: pointer;
+}
+/*fivebox e*/
+
+/*common part s*/
+.activity h5,p{
+	color:#8c745d;
+}
+.activity h6{
+	margin-left:300px;
+	font-size: 10px;
+}
+.activity .comment{
+	width: 50px;
+	height: 14px;
+	line-height: 14px;
+	font-size: 10px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 5px;
+	color: #0099cc;
+	cursor: pointer;
+}
+.activity .rightbottom i{
+	display: inline-block;
+	width: 16px;
+	height: 14px;
+	margin-right: 5px;
+}
+#firsti{
+	background-image: url(../images/activity/tworightz.jpg);
+}
+#secondi{
+	background-image: url(../images/activity/tworightpl.jpg);
+}
+/*common part e*/

@@ -1,0 +1,12 @@
+body,ul,p,h4,h3,ol,h5,span,h6,dd,dl{
+	margin:0; padding: 0;
+}
+ul{
+	list-style: none;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}

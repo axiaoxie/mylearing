@@ -1,0 +1,371 @@
+.star{
+	width:893px;
+	height: 985px;
+	background:#d3c1ab;
+}
+/*star first s*/
+.star .starf{
+	height:190px;
+	background: #fff;
+}
+.star .floatl{
+	width: 100%;
+	float:left;
+	background: #f6f6f6;
+}
+.star .starf .sfleft{
+	width: 350px;
+	height: 146px;
+	margin-left: 18px;
+	margin-top: 23px;
+}
+.star .starf .sfleft h3{
+	float:left;
+	margin-left:50px;
+	margin-top: 12px;
+	color:#737373;
+}
+.star .starf .sfleft img{
+	float: left;
+	margin-left: 30px;
+	margin-top: 5px;
+	padding-right: 134px;
+	color:#737373;
+}
+.star .starf .sfleft p{
+	display: block;
+	text-indent: 2px;
+	width: 340px;
+	height: 146px;
+	font:14px;
+	/*letter-spacing:2px*/;
+	color:#737373;
+}
+.star .starf .sfpic{
+	width: 156px;
+	height: 146px;
+	margin-top:23px;
+}
+.star .starf .sfright{
+	width: 342px;
+	height: 146px;
+	margin-top: 23px;
+}
+.star .starf .sfright img{
+	float: right;
+	margin-right: 5px;
+}
+.star .starf .sfright h4{
+	float: left;
+	color: red;
+	margin-left:1px;
+	margin-top: 25px;
+}
+.star .starf .sfright .pone{
+	display: block;
+	margin-left:1px;
+	margin-top:55px;
+}
+.star .starf .sfright p{
+	margin-left: 1px;
+	font-size: 12px;
+	color:#737373;
+
+}
+/*star first e*/
+/*star second s*/
+.star .stars{
+	height: 214px;
+	background: #e8e0d6;
+}
+.star .stars .new{
+	width: 730px;
+	height: 34px;
+	float: left;
+}
+.star .stars .new h4{
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	margin-left: 15px;
+	color: #bd9876;
+}
+.star .stars .button{
+	width:163px;
+	height: 34px;
+	float: left;
+}
+.star .stars .button a{
+	float: left;
+	display: block;
+	margin-right:11px;
+	margin-top: 14px;
+}
+.star .stars .button .mr0{
+	margin-right: 0;
+}
+.star .stars .picture{
+	width: 893px;
+	height: 159px;
+	float: left;
+}
+.star .stars .picture a{
+	display: block;
+	float: left;
+	margin-right:10px;
+}
+.star .stars .picture .ml{
+	margin-left: 35px;
+}
+/*star second e*/
+/*star third s*/
+.star .start{
+	width: 893px;
+	height: 320px;
+	background: #f6f6f6;
+}
+.star .start h3{
+	display: block;
+	width: 875px;
+	height: 39px;
+	line-height: 39px;
+	padding-left: 18px;
+	background: #fff;
+	color:#b28459;
+}
+.star .start .alltype{
+	width: 893px;
+	height:33px;
+	float: left;
+}
+.star .start .alltype ul{
+	width: 893px;
+	height: 33px;
+	border-bottom: 1px solid #898989;
+}
+.star .start .alltype ul li{
+	float: left;
+	margin-top: 7px;
+	width:67px; 
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #898989;
+	font:14px;
+	
+	margin-left: 25px;
+	
+}
+.star .start .alltype ul li a{
+	color: #c4a488;
+	cursor: pointer;
+}
+.star .start .alltype .active,
+.star .start .alltype ul li:hover
+{
+	border-bottom: 1px solid #f6f6f6;;
+}
+.star .start h4{
+	display: block;
+	width: 875px;
+	height: 45px;
+	line-height: 45px;
+	margin-left: 25px;
+	color:#b28459;
+	font-size: 16px;
+}
+.star .start .hobby{
+	width: 235px;
+	height: 250px;
+	float: left;
+}
+.star .start .hobby .arthobby{
+	width: 235px;
+	height: 45px;
+}
+.star .start .hobby .she1{
+	width: 235px;
+	height: 205px;
+}
+.star .start .hobby .she1 .s1{
+	width: 216px;
+	height: 190px;
+	float: right;
+	border-top:1px solid #898989;
+	border-right:1px dashed #898989;
+	border-bottom:1px dashed #898989;
+	border-left:1px dashed #898989;
+}
+.star .start .picshow{
+	width: 658px;
+	height: 250px;
+	float: left;
+}
+.star .start .picshow a{
+	display: block;
+	width: 179px;
+	height: 178px;
+	margin-top: 48px;
+	margin-right:20px;
+	float: left;
+	font-size: 11px;
+	color:#6d7306;;
+}
+/*star third e*/
+
+/*star fourth s*/
+.star .starh{
+	height:261px;
+	background: #f6f6f6;
+	border-top: 1px solid #898989;
+}
+.star .starh .documentary{
+	width: 235px;
+	height: 261px;
+	float: left;
+}
+.star .starh .documentary .jishi{
+	width: 235px;
+	height: 33px;
+}
+.star .starh .documentary .jishi h4{
+	margin-left: 20px;
+	margin-top:7px;
+	color: #d1bba8
+}
+.star .starh .documentary .she2{
+	width: 235px;
+	height: 228px;
+}
+.star .starh .documentary .she2 .s2{
+	width: 216px;
+	height: 190px;
+	float: right;
+	border-top:1px solid #898989;
+	border-right:1px dashed #898989;
+	border-bottom:1px dashed #898989;
+	border-left:1px dashed #898989;
+}
+.star .starh .show2{
+	width: 658px;
+	height: 223px;
+	float: left;
+}
+.star .starh .show2 a{
+	display: block;
+	width: 180px;
+	height: 159px;
+	float: left;
+	margin-top:33px;
+	margin-right: 20px;
+	color:#6d7306;;
+	font-size: 11px;
+}
+.star .starh .list{
+	width: 658px;
+	height: 38px;
+	float:left;
+}
+.star .starh .list ul{
+	width: 532px;
+	height: 28px;
+	margin-top:5px;
+	margin-left: 96px;
+}
+.star .starh .list ul li{
+	width: 30px;
+	height: 28px;
+	font-size: 12px;
+	line-height: 28px;
+	text-align: center;
+	float: left;
+	margin-right: 20px;
+	background: #fff;
+}.star .starh .list ul li a{
+	color:#666666;
+}
+.star .starh .list .list1 a{
+	display: block;
+	color:white;
+	background: #737373;
+}
+.star .starh .list .next{
+	width: 60px;
+	height: 28px;
+}
+/*star fourth e*/
+
+/*star third fouth  commom s*/
+.star .ltop{
+	width: 100px;
+	height: 135px;
+	float: left;
+}
+.star .ltop img{
+	float: right;
+	margin-top: 7px;
+}
+.star .rtop{
+	width: 116px;
+	height: 135px;
+	float: left;
+}
+.star .rtop .word{
+	margin-top: 17px;
+	font-size: 16px;
+}
+.star .rtop p{
+	font-size: 12px;
+	margin-left: 10px;
+	color:#6d7306;
+}
+.star .starh p{
+	color:#d1bba8;
+}
+.star .bottom{
+	width: 216px;
+	height: 55px;
+	float: left;
+}
+.star .bottom h5{
+	color:#6d7306;
+	margin-left: 7px;
+}
+.star .bottom p{
+	color:#6d7306;
+	margin-left: 7px;
+}
+.star .bottom p,img{
+	float:left;
+}
+.star .bottom p{
+	margin-top:8px;
+	font-size: 11px;
+}
+.star .starh .bottom p{
+	color:#6d7306;
+}
+.star .bottom img{
+	margin-left: 100px;
+	margin-top: 4px;
+}
+.star .starh .bottom img{
+	margin-left: 85px;
+	margin-top:4px;
+}
+.star .mr0{
+	margin-right: 0;
+}
+.star .ml50{
+	margin-left: 50px;
+}
+.star span{
+	display: block;	
+	width: 179px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+/*star third fouth  commom e*/

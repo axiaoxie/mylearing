@@ -1,0 +1,120 @@
+.production{
+	width: 899px;
+	height: 992px;
+	background: white;
+}
+.production .container{
+	float: left;
+	width: 899px;
+	height: 209px;	
+}
+.production .head{
+	width: 899px;
+	height: 64px;
+	background: #e8e0d6;
+}
+.production .head .headr{
+	width: 314px;
+	height: 20px;
+	margin-top: 24px;
+	float: left;
+	position: relative;
+}
+.production .head ul{
+	float: left;
+	width: 585px;
+	height: 64px;
+}
+.production .head li{
+	width:110px;
+	height: 64px;
+	line-height: 64px;
+	float: left;
+}
+.production .head .ml25{
+	margin-left: 25px;
+}
+.production .head select{
+	float: left;
+	border-right:0;
+	height: 21px;
+	border-right: 0;
+	background: #d3c1ab;
+}
+.production .headr input{
+	display: block;
+	float: left;
+	height: 17px;
+	line-height: 17px;
+	border-left: 0;
+	background: #d3c1ab;
+}
+.production .head .headr a{
+	display: block;
+	width: 21px;
+	height: 21px;
+	float: left;
+	display: block;
+	position: absolute;
+	right:90px;
+	top:1px;
+}
+.production .bodyone{
+	margin-top:29px;
+	width: 899px;
+	height: 209px;
+}
+.production .container a{
+	display: block;
+	float: left;
+	width: 175px;
+	height: 209px;
+	cursor: default;
+}
+.production .container a img{
+	float: right;
+	cursor: pointer;
+}
+.production .container a span{
+	display: block;
+	font-size: 12px;
+	float: right;
+	width: 159px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	color:#654738;
+	box-shadow:2px 2px 10px #9d9b9b;
+	cursor: pointer;
+}
+.production .tail{
+	float: left;
+	width: 899px;
+	height: 63px;
+}
+.production .tail ul{
+	margin-left: 182px;
+	margin-top:9px;
+	width:539px ;
+	height: 54px;
+}
+.production .tail ul li a{
+	display: block;
+	width: 33px;
+	height: 33px;
+	line-height: 33px;
+	margin-right: 18px;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	color: #666666;
+	border: 1px solid #e1e1e1;
+}
+.production .tail .active a{
+	color: #fff;
+	background: #737373;
+}
+.production .tail .next a{
+	width: 60px;
+	margin-right: 0;
+}	

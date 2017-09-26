@@ -1,0 +1,146 @@
+.aboutus{
+	width: 893px;
+	background: #fff;
+	margin-top: 25px;
+}
+.container{
+	width: 848px;
+	margin:0 auto;
+}
+.aboutus .top{
+	height: 113px;
+	border-bottom: 1px solid #7a7a7a;
+}
+.aboutus .top img{
+	float: left;
+}
+#downmove{
+	margin-top: 12px;
+}
+.aboutus .top h5{
+	float: left;
+	font-size: 25px;
+	height: 113px;
+	line-height: 113px;
+}
+.aboutus .top .p1{
+	width: 278px;
+	text-align: center;
+	float: left;
+	font-size: 20px;
+	height: 113px;
+	line-height: 113px;
+}
+.aboutus .body{
+	height: 1030px;
+	margin-top: 5px;
+}
+.aboutus .left{
+	width: 166px;
+	height:1015px;
+	float: left;
+	border-right: 1px solid black;
+}
+.aboutus .left li a{
+	display: block;
+	width: 140px;
+	height:40px;
+	font:18px/40px '微软雅黑';
+	text-align: center;
+	background: #91969e;
+	color: #fdfdfd;
+	margin-top: 5px;
+	border-radius:0 0 5px 5px; 
+}
+.aboutus .left .active a{
+	margin-top: 0;
+}
+.aboutus .left .active a,
+.aboutus .left li a:hover{
+	background: #f39908;
+}
+
+.aboutus .auright{
+	margin-left: 15px;
+	width: 666px;
+	float: left;
+}
+.aboutus .rfirst{
+	height:264px;
+}
+.aboutus .auright ul{
+	width: 666px;
+	height: 22px;
+	border-bottom: 1px solid #ff6e00;
+}
+.aboutus .auright ul li{
+	font: 14px;
+	color: #202121;
+	width: 142px;
+	height: 22px;
+	line-height: 22px;
+	border-bottom: 1px solid #363b45;
+}
+.aboutus .auright span{
+	display:block;
+	font-size: 16px;
+	width: 666px;
+	height: 50px;
+	line-height: 50px;
+	color: #f39a0e;
+}
+.aboutus .auright p{
+	width: 592px;
+	font-size: 10px;
+	height: 65px;
+}
+.aboutus .auright .h18{
+	height:18px;
+	line-height: 18px;
+}
+.aboutus .auright .rightpic{
+	display: inline-block;
+	margin-top: 16px;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+	background-image: url(../images/aboutus/right.jpg);
+}
+.aboutus .rsecond{
+	margin-top: 35px;
+	height:474px;
+}
+.aboutus .rsecond .height50{
+	height: 50px;
+}
+.aboutus .rsecond dl{
+	margin-top: 10px;
+}
+.aboutus .rsecond dt{
+	color: #f39a0e;
+}
+.aboutus .rsecond dd{
+	margin-top: 10px;
+	font-size: 10px;
+	display: block;margin-left:20px;
+}
+.aboutus .rthird{
+	margin-top: 90px;
+	height: 114px;
+}
+.aboutus .rthird .connect{
+	width: 330px;
+	height: 114px;
+	float: left;
+}
+.aboutus .rthird .connect span{
+	width: 336px;
+	height: 50px;
+}
+.aboutus .rthird .connect p{
+	width: 336px;
+	height: 25px;
+	font-size: 10px;
+	line-height: 25px;
+	color: #595754;
+}
